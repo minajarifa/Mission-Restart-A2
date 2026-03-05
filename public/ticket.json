@@ -1,0 +1,184 @@
+{
+  "tickets": [
+    {
+      "id": "TKT-001",
+      "title": "Unable to login to account",
+      "description": "User receives 'invalid credentials' error despite resetting password multiple times",
+      "customer": "Acme Corp",
+      "priority": "high",
+      "status": "open",
+      "createdAt": "2024-03-15T09:30:00Z"
+    },
+    {
+      "id": "TKT-002",
+      "title": "Payment processing failure",
+      "description": "Credit card payments are being declined with error code 5003",
+      "customer": "TechStart Inc",
+      "priority": "critical",
+      "status": "in-progress",
+      "createdAt": "2024-03-15T10:15:00Z"
+    },
+    {
+      "id": "TKT-003",
+      "title": "Feature request: Dark mode",
+      "description": "Customer requests dark mode implementation for better night usage",
+      "customer": "DesignHub LLC",
+      "priority": "low",
+      "status": "closed",
+      "createdAt": "2024-03-14T14:20:00Z"
+    },
+    {
+      "id": "TKT-004",
+      "title": "Data export not working",
+      "description": "CSV export function times out when trying to export large datasets",
+      "customer": "DataCorp Solutions",
+      "priority": "medium",
+      "status": "open",
+      "createdAt": "2024-03-15T11:45:00Z"
+    },
+    {
+      "id": "TKT-005",
+      "title": "Mobile app crashes on startup",
+      "description": "App crashes immediately after splash screen on iOS 17",
+      "customer": "Global Retail",
+      "priority": "critical",
+      "status": "in-progress",
+      "createdAt": "2024-03-15T08:20:00Z"
+    },
+    {
+      "id": "TKT-006",
+      "title": "Invoice generation error",
+      "description": "PDF invoices missing tax calculations for international orders",
+      "customer": "E-Shop Plus",
+      "priority": "high",
+      "status": "open",
+      "createdAt": "2024-03-14T16:30:00Z"
+    },
+    {
+      "id": "TKT-007",
+      "title": "API rate limiting too strict",
+      "description": "Getting 429 errors frequently even within documented limits",
+      "customer": "DevOps Solutions",
+      "priority": "medium",
+      "status": "closed",
+      "createdAt": "2024-03-13T13:10:00Z"
+    },
+    {
+      "id": "TKT-008",
+      "title": "User permission issues",
+      "description": "Admin users unable to modify team member roles",
+      "customer": "StartupXYZ",
+      "priority": "high",
+      "status": "in-progress",
+      "createdAt": "2024-03-15T12:00:00Z"
+    },
+    {
+      "id": "TKT-009",
+      "title": "Slow dashboard loading",
+      "description": "Main dashboard takes 30+ seconds to load analytics data",
+      "customer": "Marketing Pro",
+      "priority": "medium",
+      "status": "open",
+      "createdAt": "2024-03-14T09:45:00Z"
+    },
+    {
+      "id": "TKT-010",
+      "title": "Email notifications not sending",
+      "description": "Password reset emails not being delivered to users",
+      "customer": "FinTech Corp",
+      "priority": "critical",
+      "status": "open",
+      "createdAt": "2024-03-15T07:30:00Z"
+    },
+    {
+      "id": "TKT-011",
+      "title": "Integration with Slack broken",
+      "description": "Slack webhook integration stopped working after recent update",
+      "customer": "Remote Work Inc",
+      "priority": "high",
+      "status": "in-progress",
+      "createdAt": "2024-03-15T13:15:00Z"
+    },
+    {
+      "id": "TKT-012",
+      "title": "Documentation update needed",
+      "description": "API documentation missing examples for new endpoints",
+      "customer": "DevHub Community",
+      "priority": "low",
+      "status": "closed",
+      "createdAt": "2024-03-12T15:40:00Z"
+    },
+    {
+      "id": "TKT-013",
+      "title": "Search functionality returning incorrect results",
+      "description": "Search filter not applying correctly, showing irrelevant results",
+      "customer": "E-Learning Platform",
+      "priority": "medium",
+      "status": "open",
+      "createdAt": "2024-03-15T10:50:00Z"
+    },
+    {
+      "id": "TKT-014",
+      "title": "SSL certificate expired",
+      "description": "Website showing security warning due to expired SSL certificate",
+      "customer": "SecureBank Ltd",
+      "priority": "critical",
+      "status": "closed",
+      "createdAt": "2024-03-14T08:00:00Z"
+    },
+    {
+      "id": "TKT-015",
+      "title": "Two-factor authentication setup failing",
+      "description": "Users unable to scan QR code during 2FA setup",
+      "customer": "HealthCare Plus",
+      "priority": "high",
+      "status": "in-progress",
+      "createdAt": "2024-03-15T09:00:00Z"
+    },
+    {
+      "id": "TKT-016",
+      "title": "Billing cycle miscalculation",
+      "description": "Some customers being charged incorrect amounts for pro-rated months",
+      "customer": "SaaS Solutions",
+      "priority": "high",
+      "status": "open",
+      "createdAt": "2024-03-15T14:30:00Z"
+    },
+    {
+      "id": "TKT-017",
+      "title": "File upload size limit too low",
+      "description": "Cannot upload video files larger than 10MB for training materials",
+      "customer": "EduTech Corp",
+      "priority": "medium",
+      "status": "closed",
+      "createdAt": "2024-03-13T11:20:00Z"
+    },
+    {
+      "id": "TKT-018",
+      "title": "Dashboard charts not displaying",
+      "description": "Analytics charts showing blank instead of data visualizations",
+      "customer": "Analytics Pro",
+      "priority": "high",
+      "status": "open",
+      "createdAt": "2024-03-15T12:45:00Z"
+    },
+    {
+      "id": "TKT-019",
+      "title": "Password complexity requirements too strict",
+      "description": "Users struggling to create passwords meeting all requirements",
+      "customer": "UserFirst Design",
+      "priority": "low",
+      "status": "in-progress",
+      "createdAt": "2024-03-14T15:15:00Z"
+    },
+    {
+      "id": "TKT-020",
+      "title": "Webhook delivery failures",
+      "description": "Webhook endpoints timing out, causing data sync issues",
+      "customer": "Integrate.io",
+      "priority": "critical",
+      "status": "open",
+      "createdAt": "2024-03-15T08:45:00Z"
+    }
+  ]
+}
