@@ -1,8 +1,8 @@
 export default function Header() {
   return (
-    <div>
+    <div className="">
       <div className="shadow-sm navbar bg-base-100">
-        <div className="navbar-start">
+        <div className=" navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
@@ -12,65 +12,67 @@ export default function Header() {
                 viewBox="0 0 24 24"
                 stroke="currentColor"
               >
-                {" "}
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="2"
                   d="M4 6h16M4 12h8m-8 6h16"
-                />{" "}
+                />
               </svg>
             </div>
             <ul
-              tabIndex="-1"
+              tabIndex=""
               className="p-2 mt-3 shadow menu menu-sm dropdown-content bg-base-100 rounded-box z-1 w-52"
             >
-              <li>
-                <a>Item 1</a>
+              <li className="font-bold">
+                <a>Home</a>
               </li>
-              <li>
-                <a>Parent</a>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
+              <li className="font-bold">
+                <a>FAQ</a>
               </li>
-              <li>
-                <a>Item 3</a>
+              <li className="font-bold">
+                <a>Changelog</a>
+              </li>
+              <li className="font-bold">
+                <a>Blog</a>
+              </li>
+              <li className="font-bold">
+                <a>Download</a>
+              </li>
+              <li className="font-bold">
+                <a>Contact</a>
               </li>
             </ul>
           </div>
-          <a className="text-xl btn btn-ghost">daisyUI</a>
+          <a className="text-xl font-bold btn btn-ghost">
+            CS <span className="mb-5">____</span>Ticket System
+          </a>
         </div>
-        <div className="hidden navbar-center lg:flex">
+        {/* TODO */}
+        <div className="hidden ml-32 navbar-end lg:flex">
           <ul className="px-1 menu menu-horizontal">
-            <li>
-              <a>Item 1</a>
+            <li className="font-bold">
+              <a>Home</a>
             </li>
-            <li>
-              <details>
-                <summary>Parent</summary>
-                <ul className="w-40 p-2 bg-base-100 z-1">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
-              </details>
+            <li className="font-bold">
+              <a>FAQ</a>
             </li>
-            <li>
-              <a>Item 3</a>
+            <li className="font-bold">
+              <a>Changelog</a>
+            </li>
+            <li className="font-bold">
+              <a>Blog</a>
+            </li>
+            <li className="font-bold">
+              <a>Download</a>
+            </li>
+            <li className="font-bold">
+              <a>Contact</a>
             </li>
           </ul>
         </div>
-        <div className="navbar-end">
-          <a className="btn">Button</a>
+        <div className="font-bold navbar-end">
+          <a className="btn">+ New Ticket</a>
         </div>
       </div>
     </div>
