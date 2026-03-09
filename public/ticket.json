@@ -24,7 +24,7 @@
       "description": "Customer requests dark mode implementation for better night usage",
       "customer": "DesignHub LLC",
       "priority": "low",
-      "status": "closed",
+      "status": "in-progress",
       "createdAt": "2024-03-14T14:20:00Z"
     },
     {
@@ -60,7 +60,7 @@
       "description": "Getting 429 errors frequently even within documented limits",
       "customer": "DevOps Solutions",
       "priority": "medium",
-      "status": "closed",
+      "status": "in-progress",
       "createdAt": "2024-03-13T13:10:00Z"
     },
     {
@@ -105,7 +105,7 @@
       "description": "API documentation missing examples for new endpoints",
       "customer": "DevHub Community",
       "priority": "low",
-      "status": "closed",
+      "status": "open",
       "createdAt": "2024-03-12T15:40:00Z"
     },
     {
@@ -123,7 +123,7 @@
       "description": "Website showing security warning due to expired SSL certificate",
       "customer": "SecureBank Ltd",
       "priority": "critical",
-      "status": "closed",
+      "status": "open",
       "createdAt": "2024-03-14T08:00:00Z"
     },
     {
@@ -150,7 +150,7 @@
       "description": "Cannot upload video files larger than 10MB for training materials",
       "customer": "EduTech Corp",
       "priority": "medium",
-      "status": "closed",
+      "status": "in-progress",
       "createdAt": "2024-03-13T11:20:00Z"
     },
     {

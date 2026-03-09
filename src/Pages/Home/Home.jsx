@@ -6,8 +6,8 @@ const fetchTicket = async () => {
   const res = await fetch(`/ticket.json`)
   return res.json();
 };
+const TicketPromise= fetchTicket()
 export default function Home() {
-  const TicketPromise= fetchTicket()
   return (
     <div className="text-center">
       <Banner></Banner>

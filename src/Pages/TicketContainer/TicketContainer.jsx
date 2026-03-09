@@ -7,7 +7,7 @@ export default function TicketContainer({ TicketPromise }) {
   return (
     <div className="flex">
       {/* All ticket card */}
-      <div className="grid flex-1 md:grid-cols-2 ">
+      <div className="grid flex-1 border md:grid-cols-2">
         {tickets.map((ticket) => (
           <Ticket key={ticket.id} ticket={ticket}></Ticket>
         ))}
