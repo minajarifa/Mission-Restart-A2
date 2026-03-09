@@ -9,7 +9,7 @@ function App() {
       <div>
         <Header></Header>
       </div>
-      <div className="my-20">
+      <div className="mx-20 my-20">
         <Outlet></Outlet>
       </div>
       <div>

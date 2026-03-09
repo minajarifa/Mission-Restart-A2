@@ -5,7 +5,7 @@ export default function Banner({progress,resolved}) {
         <img src="/public/vector1.png" alt="" className="" />
         <div className="mt-20 text-center text-white">
           <h1 className="font-bold ">In-Progress</h1>
-          <h1>{progress?.length}</h1>
+          <h1 className="text-3xl">{progress?.length}</h1>
         </div>
         <img
           src="/public/vector1.png"
@@ -17,7 +17,7 @@ export default function Banner({progress,resolved}) {
         <img src="/public/vector1.png" alt="" className="" />
         <div className="mt-20 text-center text-white">
           <h1 className="font-bold">Resolved</h1>
-          <h1>{resolved?.length}</h1>
+          <h1 className="text-3xl">{resolved?.length}</h1>
         </div>
         <img
           src="/public/vector1.png"
