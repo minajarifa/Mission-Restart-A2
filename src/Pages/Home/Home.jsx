@@ -11,20 +11,30 @@ const ticketPromise = fetchTicket();
 
 export default function Home() {
   const [progress, setProgress] = useState([]);
-  const [resolved, setresolved] = useState(0);
+  const [resolved, setresolved] = useState([]);
   const handleAddProgress = (ticket) => {
+    if (progress.id === ticket.id) {
+      Swal.fire(`The same id cannot be added twice.`);
+      return;
+    }
     setProgress([...progress, ticket]);
-    Swal.fire(`${ticket.title} are added`);
+    Swal.fire(`${ticket.title} are added to progress status`);
   };
-  const handleAddResolved=(progres)=>{
-  const  resolved= progress.filter(pro=>pro.id !==progres.id)
+  // ToDo
+  const sumResolvedData = (progres) => {
+    console.log("resolved", resolved);
+    setresolved([...resolved, progres]);
+    Swal.fire(`${progres.title} are added to resolved status`);
+  };
+  const handleAddResolved = (progres) => {
+    const resolved = progress.filter((pro) => pro.id !== progres.id);
     // console.log(progres);
+    sumResolvedData(progres);
     setProgress(resolved);
-  }
-  console.log(progress);
+  };
   return (
     <div className="text-center">
-      <Banner progress={progress}></Banner>
+      <Banner resolved={resolved} progress={progress}></Banner>
       <Suspense
         fallback={
           <span className="loading loading-bars loading-xs text-9xl"></span>
@@ -35,6 +45,7 @@ export default function Home() {
           handleAddProgress={handleAddProgress}
           ticketPromise={ticketPromise}
           handleAddResolved={handleAddResolved}
+          resolved={resolved}
         ></TicketContainer>
       </Suspense>
     </div>

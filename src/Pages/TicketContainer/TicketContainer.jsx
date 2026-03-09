@@ -1,10 +1,12 @@
 import { use } from "react";
 import Ticket from "../../Components/Ticket";
 import Status from "../../Components/Status";
+import Resolved from "../../Components/Resolved";
 export default function TicketContainer({
   ticketPromise,
   handleAddProgress,
   progress,
+  resolved,
   handleAddResolved
 }) {
   const ticketData = use(ticketPromise);
@@ -39,7 +41,12 @@ export default function TicketContainer({
         <div className="my-10">
           <h3> Resolved Task </h3>
           <hr />
-          <p>No resolved task yet</p>
+           {resolved?.length === 0 ? (
+           <p>No resolved task yet</p>
+          ) : (
+            <Resolved resolved={resolved} progress={progress}></Resolved>
+          )}
+         
         </div>
       </div>
     </div>

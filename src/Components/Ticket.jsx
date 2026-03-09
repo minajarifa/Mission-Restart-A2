@@ -1,6 +1,6 @@
 export default function Ticket({ ticket,handleAddProgress }) {
   return (
-    <button onClick={()=>handleAddProgress(ticket)}>
+    <button  onClick={()=>handleAddProgress(ticket)}>
       <div>
         {/* start */}
         <div className="shadow-sm card bg-base-100 w-96">

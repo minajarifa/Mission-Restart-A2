@@ -1,4 +1,4 @@
-export default function Banner({progress}) {
+export default function Banner({progress,resolved}) {
   return (
     <div className="justify-center lg:flex">
       <div className="flex bg-gradient-to-r from-[#632EE3] to-[#9F62F2] rounded-2xl m-10">
@@ -17,7 +17,7 @@ export default function Banner({progress}) {
         <img src="/public/vector1.png" alt="" className="" />
         <div className="mt-20 text-center text-white">
           <h1 className="font-bold">Resolved</h1>
-          <h1>0</h1>
+          <h1>{resolved?.length}</h1>
         </div>
         <img
           src="/public/vector1.png"
